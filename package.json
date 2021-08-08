@@ -12,6 +12,7 @@
     "@nomiclabs/hardhat-ethers": "^2.0.2",
     "@nomiclabs/hardhat-waffle": "^2.0.1",
     "@openzeppelin/contracts": "^4.2.0",
+    "@portis/web3": "^4.0.5",
     "axios": "^0.21.1",
     "chai": "^4.3.4",
     "embla-carousel": "^4.5.3",
@@ -20,9 +21,11 @@
     "hardhat": "^2.4.3",
     "ipfs-http-client": "^50.1.2",
     "next": "11.0.1",
+    "nft.storage": "^3.0.1",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-overlay-component": "^1.0.2",
+    "web3": "^1.5.1",
     "web3modal": "^1.9.3"
   },
   "devDependencies": {

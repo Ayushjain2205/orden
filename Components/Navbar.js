@@ -3,6 +3,8 @@ import Link from "next/link";
 import Image from "next/image";
 import Logo from "../assets/logo.png";
 
+import { web3, portis } from "../services/web3";
+
 function Navbar() {
   return (
     <div>
