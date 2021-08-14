@@ -4,7 +4,7 @@ function CreatorTile({ url, name }) {
   return (
     <div className='creator-card'>
       <div className='top-half'>
-        <img class='cover' src={url} alt='' />
+        <img className='cover' src={url} alt='' />
         <div className='overlay'>
           <img
             className='overlay-image'
