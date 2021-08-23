@@ -66,9 +66,6 @@ function LandingPage() {
       <div className='blob1'>
         <Image src={Blob1} alt='blob' />
       </div>
-      <div className='blob3'>
-        <Image src={Blob3} alt='blob' />
-      </div>
     </div>
   );
 }

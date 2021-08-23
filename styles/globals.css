@@ -68,8 +68,8 @@ body {
   background-color: transparent;
   z-index: 1;
   position: relative;
-  width: 200px;
-  height: 200px;
+  width: 175px;
+  height: 175px;
   transform-style: preserve-3d;
   animation: animate 20s linear infinite;
 }
@@ -94,28 +94,28 @@ body {
 }
 
 .box span:nth-child(1) {
-  transform: rotateX(45deg) translateZ(300px);
+  transform: rotateX(45deg) translateZ(275px);
 }
 .box span:nth-child(2) {
-  transform: rotateX(90deg) translateZ(300px);
+  transform: rotateX(90deg) translateZ(275px);
 }
 .box span:nth-child(3) {
-  transform: rotateX(135deg) translateZ(300px);
+  transform: rotateX(135deg) translateZ(275px);
 }
 .box span:nth-child(4) {
-  transform: rotateX(180deg) translateZ(300px);
+  transform: rotateX(180deg) translateZ(275px);
 }
 .box span:nth-child(5) {
-  transform: rotateX(225deg) translateZ(300px);
+  transform: rotateX(225deg) translateZ(275px);
 }
 .box span:nth-child(6) {
-  transform: rotateX(270deg) translateZ(300px);
+  transform: rotateX(270deg) translateZ(275px);
 }
 .box span:nth-child(7) {
-  transform: rotateX(315deg) translateZ(300px);
+  transform: rotateX(315deg) translateZ(275px);
 }
 .box span:nth-child(8) {
-  transform: rotateX(360deg) translateZ(300px);
+  transform: rotateX(360deg) translateZ(275px);
 }
 
 .box span img {
@@ -146,8 +146,8 @@ body {
 
 .explore {
   position: absolute;
-  right: 300px;
-  bottom: 80px;
+  right: calc(100vw / 10);
+  bottom: 40px;
   font-size: 72px;
   overflow: visible;
   z-index: 5 !important;
@@ -155,19 +155,19 @@ body {
 
 .featured {
   position: absolute;
-  right: 300px;
-  top: 200px;
+  right: calc(100vw / 10);
+  top: calc(100vh / 8);
   z-index: 10;
   background: transparent;
 }
 
 .featured h4 {
-  font-size: 36px;
+  font-size: 2rem;
   background-color: transparent;
 }
 
 .featured ul {
-  font-size: 24px;
+  font-size: 1.2rem;
   background-color: transparent;
 }
 
