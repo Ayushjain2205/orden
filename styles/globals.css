@@ -23,7 +23,7 @@ body {
 }
 
 .navbar-container a {
-  margin-right: 75px;
+  margin-right: calc(100vw / 20);
 }
 
 .logo {
@@ -42,7 +42,7 @@ body {
   right: 0;
   display: flex;
   font-size: 24px;
-  padding-right: 100px;
+  padding-right: calc(100vw / 20);
   border-bottom: 3px solid #fff;
 }
 
@@ -51,7 +51,7 @@ body {
   margin-right: 350px;
   display: flex;
   font-size: 24px;
-  padding-right: 130px;
+  /* padding-right: 130px; */
   border-top: 3px solid #fff;
 }
 
