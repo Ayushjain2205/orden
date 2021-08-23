@@ -39,7 +39,7 @@ function LandingPage() {
         </div>
       </div>
       <h4 className='left-text'>Create. Mint. Sell.</h4>
-      <div className='featured'>
+      {/* <div className='featured'>
         <h4>Featured Creators</h4>
         <ul>
           <li>John Doe</li>
@@ -47,7 +47,7 @@ function LandingPage() {
           <li>Unique1234</li>
           <li>9856Hello</li>
         </ul>
-      </div>
+      </div> */}
       <div className='explore'>
         <div className='explore-text'>
           <Link passHref href='/homepage'>
@@ -65,6 +65,9 @@ function LandingPage() {
       </div>
       <div className='blob1'>
         <Image src={Blob1} alt='blob' />
+      </div>
+      <div className='blob3'>
+        <Image src={Blob3} alt='blob' />
       </div>
     </div>
   );

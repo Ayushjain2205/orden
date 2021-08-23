@@ -212,8 +212,8 @@ body {
   right: 0;
   z-index: 1;
   overflow: hidden;
-  height: 338px;
-  width: 338px;
+  height: calc(100vh / 3);
+  width: calc(100vh / 3);
 }
 
 /* Pages */
